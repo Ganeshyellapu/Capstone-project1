@@ -1,0 +1,542 @@
+.{
+	box-sizing: border-box;
+}
+body{
+	background: #fcfcfa;
+}
+#start{
+	height: 600px;
+	width: 100%;
+	background: url('../images/beach1.jpg');
+	background-size: cover;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+#agency{
+	border:3px solid grey;
+	border-radius: 20px;
+	z-index: 1;
+	background-color:#1f2e2e;
+	margin: 5px;
+	position: fixed;
+	height: 50px;
+	width: 150px;
+	color:#ffd11a;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#agency h1{
+	margin: 0px;
+}
+#start1{
+	height: 30%;
+	width: 400px;
+	position: relative;
+	top: 300px;
+	left: 200px;
+	float: left;
+}
+::placeholder{
+	color: whitesmoke;
+}
+#start1_head{
+	color: #ffd11a;
+}
+span{
+	text-align: justify;
+	width: 100%;
+}
+#start_para{
+	color: whitesmoke;
+}
+#start_line{
+	height: 10px;
+	width: 150px;
+	background-color:#ffd11a ;
+	border-radius: 2px;
+}
+#start2{
+	height: 50%;
+	width: 400px;
+	position: relative;
+	top: 300px;
+	right: 200px;
+	float: right;
+}
+#start2_head{
+	color: whitesmoke;
+	font-family:cursive;
+}
+
+input{
+	color: white;
+	height: 20px;
+	width: 100%;
+	background: none;
+	border: 1px solid white;
+}
+textarea{
+	height: 30px;
+	width: 100%;
+	background: none;
+	border: 1px solid white;
+}
+#startbt{
+	background-color:#ffd11a ;
+	height: 30px;
+	width: 80px;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+#about{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+#us{
+	height: 80%;
+	width: 25%;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
+#us_head{
+	color: #ffd11a;
+}
+#us_p{
+	color: black;
+}
+#read{
+	height: 80%;
+	width: 25%;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 110px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+#readbt{
+	height: 40px;
+	width: 80px;
+	color: white;
+	position: absolute;
+	background-color:#ffd11a;
+	border: none;
+	border-radius: 5px;
+	top: 180px;
+	left:0px;
+}
+#img{
+	height: 80%;
+	width: 30%;
+	background: url('../images/beach.jpg');
+	background-size: cover;
+	float: right;
+	position: relative;
+	top: 30px;
+	right: 60px;
+}
+#best{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+}
+#why{
+	height: 40%;
+	width: 100%;
+	background-color: black;
+	position: relative;
+}
+#besth{
+	color: #ffd11a;
+	position: absolute;
+	top: 0px;
+	left:500px;
+}
+#why_p{
+	text-align: center;
+	color: grey;
+	position: absolute;
+	top: 50px;
+	left: 450px;
+}
+#icons{
+	height: 60%;
+	width: 100%;
+	background-color: black;
+	position: relative;
+}
+#earth{
+	background-color: black;
+	height: 80%;
+	width: 20%;
+	float: left;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+#eicon{
+	position:absolute;
+	top: 0px;
+	left: 100px;
+	color: skyblue;
+	font-size: 20px;
+}
+#eh{
+	position: relative;
+	top: 10px;
+	left: 45px;
+	color: white;
+}
+#ep{
+	text-align: center;
+	color: grey;
+}
+#discover{
+	background-color: black;
+	height: 80%;
+	width: 20%;
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 650px;
+}
+#dicon{
+	position:absolute;
+	top: 0px;
+	left: 100px;
+	color: red;
+	font-size: 20px;
+}
+#dh{
+	position: relative;
+	top: 10px;
+	left: 80px;
+	color: white;
+}
+#dp{
+	text-align: center;
+	color: grey;
+}
+#trip{
+	background-color: black;
+	height: 80%;
+	width: 20%;
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 100px;
+}
+#ticon{
+	position:absolute;
+	top: 0px;
+	left: 100px;
+	color: skyblue;
+	background-color: orange;
+	font-size: 20px;
+}
+#th{
+	position: relative;
+	top: 10px;
+	left: 45px;
+	color: white;
+}
+#tp{
+	text-align: center;
+	color: grey;
+}
+#nice{
+	background-color: black;
+	height: 80%;
+	width: 20%;
+	float: right;
+	position: relative;
+	top: 10px;
+	left: 450px;
+}
+#nicon{
+	position:absolute;
+	top: 0px;
+	left: 100px;
+	color: orange;
+	font-size: 20px;
+}
+#nh{
+	position: relative;
+	top: 10px;
+	left: 45px;
+	color: white;
+}
+#np{
+	text-align: center;
+	color: grey;
+}
+#nature{
+	height: 300px;
+	width: 100%;
+	background: url('../images/nature1.jpg');
+	background-size: cover;
+	position: relative;
+}
+#nature_h{
+	color: #ffd11a;
+	position: absolute;
+	top: 35px;
+	left: 150px;
+}
+#nap{
+	height: 30%;
+	width: 60%;
+	color: dimgrey;
+	position: absolute;
+	top: 90px;
+	left: 150px;
+	text-align: justify;
+}
+#nah{
+	position: absolute;
+	bottom: 90px;
+	left: 150px;
+	color: white;
+}
+#nabt{
+	height: 30px;
+	width: 100px;
+	background-color: #ffd11a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	position: absolute;
+	top: 100px;
+	right: 150px;
+}
+
+#lo_h{
+	position: absolute;
+	color: #ffd11a;
+	/*top: 0px;*/
+	left: 500px;
+}
+#data{
+	height: 150px;
+	width: 60%;
+	position: relative;
+	top: 50px;
+	left: 250px;
+}
+#lo_p{
+	color: grey;
+	text-align: center;
+}
+#location{
+	height: 400px;
+	width: 100%;
+	margin: 10px 0px;
+/*	background-color: white;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#loc1{
+	height: 100%;
+	width: 25%;
+	top: 100px;
+	box-shadow: 1px 1px 5px 1px grey;
+	margin: 0 10px;
+}
+#loc2{
+	height: 100%;
+	width: 25%;
+	top: 100px;
+	box-shadow: 1px 1px 5px 1px grey;
+	margin: 0 10px;
+}
+#loc3{
+	height: 100%;
+	width: 25%;
+	top: 100px;
+	box-shadow: 1px 1px 5px 1px grey;
+	margin: 0 10px;
+}
+#lpic{
+	height: 50%;
+	width: 100%;
+	background: url('../images/mount.jpg') ;
+	background-size: cover;
+	position: relative;
+}
+#loc2 #lpic{
+	height: 50%;
+	width: 100%;
+	background: url('../images/sunset.jpg') ;
+	background-size: cover;
+	position: relative;
+}
+#loc3 #lpic{
+	height: 50%;
+	width: 100%;
+	background: url('../images/nature.jpg') ;
+	background-size: cover;
+	position: relative;
+}
+#lda{
+/*	position: relative;*/
+	height: 300px;
+	bottom: 10px;
+	left: 0px;
+	text-align: left;
+	margin: 10px 20px;
+}
+#l1p{
+	color: grey;
+}
+#loline{
+	height: 10px;
+	width: 45%;
+	background-color: #ffd11a;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+#full-cover{
+/*	margin: 30px 0px;*/
+	background: url(../images/beach1.jpg);
+	background-size: cover;
+	position: relative;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: center;
+}
+.pic{
+	position: absolute;
+	top: 80px;
+	margin: auto auto;
+	background: url("../images/sunset.jpg");
+	background-size: cover;
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+}
+.des {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  width: 50%;
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.des h3{
+	color: #ffd11a;
+}
+#logos{
+	height: 350px;
+	width: 100%;
+	background-color: #f2f2f2;
+	display: grid;
+	text-align: center;
+	grid-template-columns: auto auto;
+	  align-items: center;
+	  justify-content: center;
+}
+img{
+	margin: 5px 60px;
+	height: 150px;
+	width: 200px;
+/*	padding: 20px;*/
+}
+#last{
+	background: url('../images/nature1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+#last1{
+	background-color: white;
+	height: 70%;
+	width: 20%;
+	float: left;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+}
+.vp1{
+	background: url('../images/mount.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60%;
+	width: 100%;
+}
+.vp12{
+	background: url('../images/beach.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 60%;
+	width: 100%;*/	
+}
+.vp13{
+	background: url('../images/sunset.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vp14{
+	background: url('../images/nature.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#vp2{
+	margin:15px;
+/*	height: 40%;*/
+	width: 100%;
+}
+#vp2 button{
+	background-color:#ffd11a;
+	height: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 5px;
+}
+#last2{
+	background-color: white;
+	height: 70%;
+	width: 20%;
+	float: left;
+	position: absolute;
+	top: 80px;
+	left: 360px;
+}#last3{
+	background-color: white;
+	height: 70%;
+	width: 20%;
+	float: left;
+	position: absolute;
+	top: 80px;
+	left: 650px;
+}#last4{
+	background-color: white;
+	height: 70%;
+	width: 20%;
+	float: right;
+	position: absolute;
+	top: 80px;
+	right: 60px;
+}
+footer{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+}
